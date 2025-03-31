@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Bienes Raíces Tijuana</title>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="estadisticas.html">Estadísticas de la página</a></li>
+            <li><a href="inventario.html">Expansión de inventario</a></li>
+        </ul>
+    </nav>
+    <h1>CREAR USUARIO</h1>
+    <form action="/register" method="post">
+        <label for="fullname">Usuario:</label><br>
+        <input type="text" id="fullname" name="fullname" required><br><br>
+        <label for="email">Correo electrónico:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+        <label for="password">Contraseña:</label><br>
+        <input type="password" id="password" name="password" required><br><br>
+        <input type="submit" value="Registrarse">
+    </form>
+    <h1>INICIAR SESIÓN</h1>
+    <form action="/login" method="post">
+        <label for="username">Usuario:</label><br>
+        <input type="text" id="username" name="username" required><br><br>
+        <label for="password">Contraseña:</label><br>
+        <input type="password" id="password" name="password" required><br><br>
+        <input type="submit" value="Iniciar Sesión">
+    </form>
+</body>
+</html>
